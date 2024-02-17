@@ -1,0 +1,24 @@
+.ableLyf {
+  font-size: 30px;
+  font-family: "Righteous", sans-serif;
+  flex: 0.5;
+}
+
+#spaIcon {
+  color: green;
+}
+#peopleIcon,
+#calendarIcon,
+#dashBoardIcon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+#peopleText,
+#calendarText,
+#dashBoardText {
+  font-size: 30px;
+}
+.css-hgjq8h {
+  justify-content: center !important;
+}

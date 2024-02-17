@@ -1,0 +1,163 @@
+.headTitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  flex: 0.2;
+}
+.heading {
+  display: flex;
+  align-items: center;
+}
+.adminSec {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0.8;
+}
+.heading {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  border-bottom: solid 1px gray;
+}
+.adminText {
+  margin-right: 1%;
+  font-size: 17px;
+}
+.calendarSection {
+  background-color: #f6f8fb;
+}
+.attendanceTitle {
+  padding-top: 16px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 18px;
+  border-bottom: solid 1px gray;
+}
+.filterDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 1px gray;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 4px;
+  font-weight: 900;
+}
+.prevNextDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+.calendarDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+.checkboxesDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+#prevprevIcon {
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+#prevIcon {
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+#nextnextIcon {
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+#nextIcon {
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+.daysNoDiv {
+  display: flex;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px gray;
+}
+.searchDiv {
+  flex: 0.3;
+}
+.daysDiv {
+  flex: 0.7;
+  display: flex;
+  justify-content: space-around;
+}
+
+.userdaysNoDiv {
+  display: flex;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px gray;
+  align-items: center;
+}
+.usersearchDiv {
+  flex: 0.3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.userdaysDiv {
+  flex: 0.7;
+  display: flex;
+  justify-content: space-around;
+}
+
+.naming {
+  margin-left: 2%;
+}
+.userAttendance {
+  height: 68vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: solid 1px gray;
+}
+.userAttendance::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.userAttendance::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+/* Handle */
+.userAttendance::-webkit-scrollbar-thumb {
+  background: blue;
+  width: 7px;
+}
+
+.attendanceSpan {
+  border-bottom: solid 5px orangered;
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+}
+.userdaysNoDiv:hover {
+  background-color: white;
+}
+.tickAttend,
+.closeAttend,
+.noneAttend {
+  cursor: pointer;
+}

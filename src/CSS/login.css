@@ -1,0 +1,62 @@
+.loginSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #881b3e;
+}
+#loginBox {
+  width: 300px;
+  /* border: solid 1px black; */
+  padding: 20px;
+  border-radius: 30px;
+  background-color: white;
+}
+.heading {
+  font-family: "Russo One", sans-serif;
+  /* font-size: 30px; */
+  /* text-decoration: underline; */
+}
+.loginHeading {
+  font-size: 30px;
+}
+.mailSection,
+.passwordSection,
+.submitSection {
+  margin-top: 10%;
+  text-align: center;
+}
+#mailText,
+#passwordText {
+  font-family: "Vollkorn", serif;
+  font-size: 20px;
+  border: solid 1px black;
+  border-radius: 3px;
+  padding: 8px;
+  border-radius: 10px;
+  /* padding-top: 15px; */
+}
+.mailLabel,
+.passwordLabel {
+  position: relative;
+  top: -30px;
+  right: 235px;
+  background-color: white;
+  padding: 3px;
+  font-weight: 600;
+}
+.submitSection {
+  text-align: center;
+}
+.accText {
+  font-family: "Blinker", sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.accText:hover {
+  color: blue;
+}
+.registersSection {
+  margin-top: 10%;
+  text-align: center;
+}

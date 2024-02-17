@@ -1,0 +1,274 @@
+.gridA {
+  padding-top: 10px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-bottom: 5px;
+}
+.gridItemA {
+  /* border: solid 1px black; */
+  height: 370px;
+  padding: 20px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gridItemB {
+  /* border: solid 1px black; */
+  height: 370px;
+  padding: 20px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.shiftAdmin {
+  font-size: 25px;
+  font-weight: 900;
+  flex: 0.2;
+  display: flex;
+  align-items: flex-end;
+}
+.accountSpan {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.twoBoxes {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.firstBox,
+.secondBox {
+  background-color: lightgray;
+  border-radius: 30px;
+  width: 180px;
+  padding: 18px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 18px;
+  border-bottom: solid;
+}
+.secondBox {
+  margin-left: 2%;
+}
+.firstCon {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.secondCon {
+  font-size: 15px;
+}
+.thirdCon {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.boxesTwo {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.boxesTwoA,
+.boxesTwoB,
+.boxesTwoC {
+  background-color: lightgray;
+  border-radius: 30px;
+  width: 165px;
+  height: 180px;
+  margin: 1%;
+  padding: 10px;
+  border-bottom: solid;
+}
+.boxesTwoC {
+  background-color: black;
+  color: white;
+  border-bottom: solid gray;
+}
+.showPercent {
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.percentSpan {
+  font-size: 30px;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 43px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whoType {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.pieceB {
+  text-align: center;
+  padding-top: 10px;
+}
+.blindAttend {
+  font-size: 13px;
+}
+.noof {
+  font-size: 13px;
+  font-weight: bolder;
+}
+.quesA {
+  font-size: 20px;
+  text-align: end;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.quesB {
+  font-size: 40px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.quesC {
+  font-size: 30px;
+  text-align: end;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.qhpText {
+  padding-right: 18px;
+  padding-left: 18px;
+  text-align: center;
+}
+.prettyText {
+  flex: 0.1;
+}
+.accountDiv {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+}
+.showDate {
+  flex: 0.5;
+  width: 100%;
+  font-weight: bolder;
+  /* display: flex;
+  justify-content: center; */
+}
+.dashDays {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.monYr {
+  text-align: center;
+}
+.weekName {
+  width: 70px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border-bottom: solid lightgray;
+}
+
+.gridB {
+  padding-top: 10px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-bottom: 5px;
+}
+.gridBitemA {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+.gridBitemB {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+.eventsTitle {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.eventsBox {
+}
+.blackBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.boxA {
+  flex: 0.1;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 50px;
+}
+.boxB {
+  flex: 0.5;
+  margin-left: 1%;
+}
+.boxC {
+  flex: 0.4;
+  font-weight: bolder;
+}
+.subA {
+  font-weight: 800;
+}
+.subB {
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
+}
+.deepOne,
+.deepTwo {
+  text-align: center;
+}
+.weekName.setWeekName {
+  border-bottom: solid blue;
+  color: blue;
+}
+.eventsBox {
+  height: 28vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.eventsBox::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.eventsBox::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+/* Handle */
+.eventsBox::-webkit-scrollbar-thumb {
+  background: blue;
+  width: 7px;
+}

@@ -1,0 +1,101 @@
+.entriesSubPage {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.entryInd {
+  width: 100%;
+  padding-left: 5px;
+}
+.entriesChild {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: solid;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.entryUserImg {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.entA {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.entSpanA {
+  flex: 0.2;
+  font-size: 15px;
+  font-weight: 600;
+}
+.entSpanB {
+  flex: 0.8;
+}
+
+.entriesPage {
+  height: 76vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: solid 1px lightgray;
+}
+
+.entriesPage::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.entriesPage::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+/* Handle */
+.entriesPage::-webkit-scrollbar-thumb {
+  background: blue;
+  width: 7px;
+}
+.entriesSection {
+  background-color: #f6f8fb;
+}
+.headA.entry {
+  flex: 0.2;
+  /* text-align: center; */
+}
+.headB.entry {
+  flex: 0.2;
+}
+.headD.entry {
+  flex: 0.2;
+}
+.headC.entry {
+  flex: 0.2;
+}
+.headE.entry {
+  flex: 0.2;
+}
+.conA.entry {
+  flex: 0.2;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.conB.entry {
+  flex: 0.2;
+}
+.conC.entry {
+  flex: 0.2;
+  text-align: center;
+}
+.conD.entry {
+  flex: 0.2;
+  text-align: center;
+}
+.conE.entry {
+  flex: 0.2;
+  text-align: center;
+}

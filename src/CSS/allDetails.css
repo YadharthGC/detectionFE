@@ -1,0 +1,196 @@
+.allTextDiv {
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  border-bottom: solid 1px gray;
+}
+.allTableTab {
+  width: 100%;
+}
+.allTableHead {
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px gray;
+  font-weight: bolder;
+}
+.bodyPart {
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px gray;
+}
+.bodyPart:hover {
+  background-color: white;
+}
+.headA,
+.conA {
+  flex: 0.3;
+}
+.headB,
+.conB {
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+}
+.headC {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+}
+.conC {
+  flex: 0.2;
+}
+.headD {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+}
+.conD {
+  flex: 0.2;
+}
+.headE,
+.conE {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+}
+/* .headB,
+.headC,
+.headD,
+.conB,
+.conC,
+.conD,
+.conE {
+  text-align: center;
+} */
+.headA,
+.conA {
+  text-align: start;
+}
+.conA {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.allHead {
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+.conAtext {
+  margin-left: 2%;
+}
+.conAvideocon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+}
+.conCno,
+.conCmonth {
+  text-align: center;
+}
+.mrngIcon,
+.conDText {
+  text-align: center;
+}
+.allTableBody {
+  height: 69vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: solid 1px lightgray;
+}
+
+.allTableBody::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.allTableBody::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+/* Handle */
+.allTableBody::-webkit-scrollbar-thumb {
+  background: blue;
+  width: 7px;
+}
+.conAbox {
+  flex: 0.1;
+}
+.conAvatar {
+  flex: 0.4;
+}
+.conAtext {
+  flex: 0.4;
+}
+.conAvideocon {
+  flex: 0.1;
+}
+.attendanceTherapists {
+  cursor: pointer;
+}
+.attendanceTherapists[blink="Therapists"] {
+  border-bottom: solid 5px orangered;
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+}
+.attendanceStudents {
+  margin-left: 2%;
+  cursor: pointer;
+}
+.attendanceStudents[blink="Students"] {
+  border-bottom: solid 5px orangered;
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+}
+.addUserSpan {
+  margin-left: 1%;
+  font-size: 30px;
+  display: flex;
+}
+.addUserSpan:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.allTextDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.allDetailsSection {
+  background-color: #f6f8fb;
+}
+#ipIcon:hover {
+  color: purple;
+  cursor: pointer;
+}
+#webIcon:hover {
+  color: yellow;
+  cursor: pointer;
+}
+#editIcon:hover {
+  color: blue;
+  cursor: pointer;
+}
+#delIcon:hover {
+  color: red;
+  cursor: pointer;
+}
+#adIcon:hover {
+  cursor: pointer;
+  color: green;
+}

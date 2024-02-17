@@ -1,0 +1,182 @@
+.webCamDiv {
+  display: flex;
+  border-bottom: solid 1px lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.webCamDivA {
+  flex: 0.5 1;
+  text-align: center;
+  border-right: solid 1px lightgray;
+
+  display: flex;
+  flex-direction: column;
+}
+.webCamDivB {
+  flex: 0.5;
+}
+.redBtn {
+  font-size: 40px;
+  color: red;
+  cursor: pointer;
+}
+.buttonDivs {
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleNew {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 1px gray;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  font-weight: 900;
+}
+#hideCamIcon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.TakeBtn {
+  margin-left: 2%;
+}
+.demoImg {
+  width: 235px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.imgA,
+.imgB,
+.imgC {
+  margin-left: 1%;
+}
+.regisImgs,
+.regisName,
+.regisGender,
+.regisBirth,
+.regisShift {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  margin-top: 1%;
+}
+
+.regisNameB,
+.regisGenderB,
+.regisBirthB,
+.regisShiftB {
+  flex: 0.8;
+}
+.regisGenderA,
+.regisNameA,
+.regisBirthA,
+.regisShiftA {
+  flex: 0.2;
+}
+.regisNameA {
+  display: flex;
+  justify-content: flex-start;
+}
+#nameOutline {
+  width: 200px !important;
+}
+#demo-simple-select-genderBox,
+#demo-simple-select-shift {
+  width: 182px !important;
+}
+#stuSub {
+  margin-left: 1%;
+}
+.regisSubLoop {
+  display: flex;
+  align-items: center;
+}
+#photoWeb {
+  border-radius: 30px;
+}
+.blankImg {
+  width: 600px;
+  height: 440px;
+  background-color: lightgray;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cameraDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registerSection {
+  background-color: #f6f8fb;
+}
+#uploadingBtn {
+  margin-left: 1%;
+}
+#uploadingBtnTrue {
+  margin-left: 1%;
+  background-color: green !important;
+}
+
+.imgA,
+.imgB,
+.imgC {
+  position: relative;
+  width: 50%;
+}
+
+.demoImg {
+  display: block;
+  /* width: 100%;
+  height: auto; */
+}
+
+.closeImgDiv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  /* transition: 0.5s ease; */
+  /* background-color: #008cba; */
+}
+.imgA:hover .demoImg.presentImg,
+.imgB:hover .demoImg.presentImg,
+.imgC:hover .demoImg.presentImg {
+  opacity: 0.5;
+}
+.imgA:hover .closeImgDiv,
+.imgB:hover .closeImgDiv,
+.imgC:hover .closeImgDiv {
+  opacity: 1;
+}
+
+.closeImg {
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#closeSharpIcon {
+  font-size: 50px;
+  font-weight: 900;
+  cursor: pointer;
+}

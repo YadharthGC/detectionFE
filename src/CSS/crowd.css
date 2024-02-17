@@ -1,0 +1,50 @@
+.crowdDetectionSection {
+  background-color: #f6f8fb;
+}
+.userTextField.videoSpace {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.allTextDiv.videoDiv {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#videoCallIcon:hover {
+  cursor: pointer;
+  color: blue;
+}
+.camAddDiv {
+  background: white;
+  border-radius: 30px;
+  font-family: "Righteous", sans-serif !important;
+}
+.detailsName {
+  padding: 20px;
+}
+.naming {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.namingText {
+  flex: 0.5;
+}
+.namingB {
+  flex: 0.5;
+}
+.addCameraTitle {
+  padding-top: 10px;
+  text-align: center;
+}
+.camAddSubmit {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.entryUserImg.crowd {
+  cursor: pointer;
+}
+.allTableBody.crowd {
+  height: 79vh;
+}
